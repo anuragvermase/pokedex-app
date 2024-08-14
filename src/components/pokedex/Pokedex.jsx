@@ -1,6 +1,6 @@
 //CSS import 
 import './Pokedex.css';
-import Search from '../search/Search';
+import Search from '../Search/Search';
 import PokemonList from '../pokemonList/PokemonList';
 
 function Pokedex(){

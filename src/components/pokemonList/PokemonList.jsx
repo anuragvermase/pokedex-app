@@ -2,7 +2,7 @@
 import './PokemonList.css';
 import axios from 'axios'; 
 import { useEffect, useState } from 'react';
-import Pokemon from '../pokemon/Pokemon';
+import Pokemon from '../Pokemon/Pokemon';
 
 function PokemonList(){
     const DEFAULT_URL = "https://pokeapi.co/api/v2/pokemon";
@@ -54,7 +54,7 @@ function PokemonList(){
             </div>
 
             <div className='pokemon-list'>
-            {pokemonList.map(pokemon => <Pokemon name = {pokemon.name} key = {pokemon.id} url = {pokemon.image} /> )}
+            {pokemonList.map(pokemon => <Pokemon name = {pokemon.name} key = {pokemon.id} url = {pokemon.image} id = {pokemon.id} /> )}
             </div>
 
         </div>
