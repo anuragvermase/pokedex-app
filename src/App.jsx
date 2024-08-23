@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Pokedex from './components/Pokedex/Pokedex'
+import Pokedex from './components/Pokedex/Pokedex';
 import PokemonDetails from "./components/PokemonDetails/PokemonDetails";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Pokedex />} />
       <Route path="/pokemon/:id" element={<PokemonDetails />} />
-      <Route path="*" element={<h1>Not Found</h1>} />
+      <Route path="*" element={<div><h1>Not Found</h1></div>} />
     </Routes>
   );
 }
