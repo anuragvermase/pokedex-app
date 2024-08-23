@@ -2,7 +2,7 @@
 import './Pokedex.css';
 import { useState } from 'react';
 import Search from '../Search/Search';
-import PokemonList from '../pokemonList/PokemonList';
+import PokemonList from "../PokemonList/PokemonList";
 import PokemonDetails from '../PokemonDetails/PokemonDetails';
 
 function Pokedex(){
